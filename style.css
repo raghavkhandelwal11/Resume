@@ -50,6 +50,14 @@
 
 .tab1 {
     border-spacing: 18px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.flex-internal {
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .fix2 {
@@ -61,6 +69,7 @@
 
 .tal {
     text-align: left;
+    text-align: center;
 }
 
 .intro {
@@ -77,7 +86,7 @@
 }
 
 .nav-link:hover {
-    color:rgb(15, 74, 108)
+    color:rgb(10, 130, 199)
 }
 
 ul {
@@ -86,6 +95,7 @@ ul {
 }
 
 h3 {
+
     color: rgb(15, 74, 108);
 }
 
@@ -93,5 +103,15 @@ a {
     color: black;
     
 }
+
+li{
+    font-weight: 600;
+}
+
+.tal1 {
+    text-align: left;
+    margin-left: 3%;
+}
+
 
 
